@@ -1,5 +1,8 @@
 ---
 title: Hello World
+comments: true
+katex: true
+tags: "home"
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -33,6 +36,19 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 
 ``` bash
 $ hexo deploy
+```
+### KaTex test
+
+$\Alpha \Beta$
+
+### Code
+``` c++
+#include <iostream>
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)

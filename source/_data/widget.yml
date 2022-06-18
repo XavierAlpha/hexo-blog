@@ -1,0 +1,14 @@
+#top:
+#  - class_name:
+#    id_name:
+#    name:
+#    icon:
+#    html:
+
+bottom:
+  - class_name: card-category-list
+    id_name: aside-cat-list
+    name: Headlines
+    icon: fas fa-book
+    order: 0
+    html: '<ul class="card-category-list" id="aside-cat-list"><li class="card-category-list-item"><a class="card-category-list-link" href="/headlines/Demo/" data-pjax-state=""><span class="card-category-list-name">Demo</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/headlines/Docs%E6%96%87%E6%AA%94/" data-pjax-state=""><span class="card-category-list-name">Docs文档</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/headlines/Markdown/" data-pjax-state=""><span class="card-category-list-name">Markdown</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/headlines/Thx/" data-pjax-state=""><span class="card-category-list-name">Thx</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/headlines/%E9%80%B2%E9%9A%8E%E6%95%99%E7%A8%8B/" data-pjax-state=""><span class="card-category-list-name">进阶教程</span><span class="card-category-list-count">3</span></a></li></ul>'
