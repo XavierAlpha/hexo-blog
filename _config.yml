@@ -115,3 +115,10 @@ markdown:
       options:
         strict: false
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  template:
+ 
+
