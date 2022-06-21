@@ -297,11 +297,13 @@ livere:
 gitalk:
   client_id: d5dee10387409a85348b
   client_secret: ec5dc1d472fc797459e0162cd7126066fe219e33
-  repo: https://github.com/XavierAlpha/virtualvoids-blog-comment.git
+  repo: virtualvoids-blog-comment
   owner: XavierAlpha
   admin: XavierAlpha
   option:
     perPage: 10
+    distractionFreeMode: false
+    pagerDirection: last
 
 # valine
 # https://valine.js.org
@@ -797,7 +799,7 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
@@ -808,7 +810,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
@@ -836,6 +838,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <meta http-equiv="Access-Control-Allow-Origin" content="https://cloudflareinsights.com/">
+    - <meta http-equiv ="Content-Security-Policy" content="upgrade-insecure-requests">
     - <link rel="stylesheet" href="/css/classify.css"> #for classify
     - <link rel="stylesheet" href="/css/self.css"> # for transparent
     
