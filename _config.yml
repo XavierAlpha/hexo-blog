@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Virtual Voids'
-subtitle: 'z0svv'
+title: 'xxxx'
+subtitle: 'xxxx'
 description: ''
 keywords:
 author: xavier taylor
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://virtualvoids.com/
+url: https://xxx.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults: 
 pretty_urls:
@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: ssh://git@virtualvoids.com:1113/home/git/www/blog/blog.git
+  repo: xxxx
   branch: master
 
 
