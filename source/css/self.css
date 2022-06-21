@@ -53,7 +53,7 @@
 }
 
 #aside-content #card-toc .toc-content {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .search span {
@@ -66,8 +66,22 @@
   text-shadow: 5px -5px black, 4px -4px white;
   font-weight: bold;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text
+  -webkit-background-clip: text;
+  
+  -webkit-animation: flicker 2s infinite;
 }
+@-webkit-keyframes flicker{
+0%{
+  opacity: 1;
+  }
+50%{
+  opacity: 0.5;
+  }
+100%{
+  opacity: 1;
+  }
+}
+
 
 #page-header #site-title {
   color: #f3f3f3;
@@ -110,14 +124,36 @@
 [data-theme='dark']
 .layout > .recent-posts .pagination > *:not(.space) {
     background-color: rgba(204,204,204,.6); /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(to right, #309cd0 0%, #330867 100%);
 }
 
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-
+  font-weight:bolder;
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  margin:0px;
+  font-size:35px;
+  -webkit-background-clip:text;
+  -webkit-text-stroke:1px #0000FF;
+  -webkit-text-fill-color:transparent;
+  -webkit-animation:bounce 5s infinite;
+}
+@-webkit-keyframes bounce{
+0%,100%,20%,50%,80%{
+  -webkit-transform:translateY(0);
+  }40%{
+  -webkit-transform:translateY(-30px);
+  }60%{
+  -webkit-transform:translateY(-15px);
+  }90%{
+  -webkit-transform:translateY(-7.5px);
+  }
 }
 
 #post-info .post-title {
-
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+  -webkit-animation:bounce 2.5s infinite;
 }
 
