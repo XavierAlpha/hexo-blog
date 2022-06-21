@@ -1,6 +1,7 @@
 ---
 title: Wallpaper
 date: 2022-06-20 23:53:00
+type: gallery
 comments: false
 top_image: false
 ---
