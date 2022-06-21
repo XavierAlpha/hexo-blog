@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: ssh://virtualvoids.com:1113/home/git/www/blog/blog.git
+  repo: ssh://git@virtualvoids.com:1113/home/git/www/blog/blog.git
   branch: master
 
 
